@@ -1,6 +1,10 @@
+Currently this only works with the <b>moreScriptHooks</b> Branch:
+https://github.com/3ndos/azerothcore-wotlk/tree/moreScriptHooks
+<b>Make sure to support the main project:
+https://github.com/azerothcore/azerothcore-wotlk/</b>
 # RandomEnchantsModule
-* !!BEFORE ADDING!! Execute the included "conf/SQL/item_enchantment_random_tiers.sql" file on your world database. This creates a necessary table for this module.
-* This is a "fun" script/module.
+* <b>!!BEFORE RUNNING!!:</b> Execute the included "conf/SQL/item_enchantment_random_tiers.sql" file on your world database. This creates a necessary table for this module.
+* This is a "fun" script/module converted from an LUA script I found, credits to whoever did this originally
 # What this does:
 * Will sometimes add random enchantments on any item Looted, Quest Rewarded or Profession created
 # Configurable:
