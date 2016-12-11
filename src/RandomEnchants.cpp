@@ -138,8 +138,9 @@ public:
         if (!reload) {
             std::string conf_path = _CONF_DIR;
             std::string cfg_file = conf_path + "/RandomEnchants.conf";
-			if (WIN32)
+#ifdef WIN32
 				cfg_file = "RandomEnchants.conf";
+#endif
 			std::string cfg_def_file = cfg_file +".dist";
             sConfigMgr->LoadMore(cfg_def_file.c_str());
 
